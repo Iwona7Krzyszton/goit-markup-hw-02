@@ -285,7 +285,7 @@ body {
   justify-content: center;
   list-style: none;
   gap: 8px;
-  margin-top: 94px;
+  margin: 94px auto 50px auto;
 }
 
 .buttons-list {
@@ -299,6 +299,7 @@ body {
   padding: 6px 22px;
   letter-spacing: 0.03em;
   background: var(--backgroundlightblue);
+  cursor: pointer;
 }
 
 .buttons-list:hover {
@@ -323,7 +324,9 @@ body {
   background: var(--white);
   list-style: none;
   border: 1px solid rgba(238, 238, 238, 1);
-  margin: 50 auto 94 auto;
+  margin: 0 auto 94px auto;
+  justify-content: center;
+  padding: 0;
 }
 
 .product-card {
