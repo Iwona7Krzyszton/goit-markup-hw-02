@@ -267,8 +267,6 @@ body {
 
 /*strona portfolio*/
 .wrapper {
-  width: 1600px;
-  margin: 0 auto;
   background-color: var(--white);
 }
 
@@ -278,6 +276,11 @@ body {
   flex-direction: row;
   padding: 25px 0 24px 0;
   gap: 93px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .buttons-selection {
@@ -310,11 +313,6 @@ body {
 .buttons-list:focus {
   background-color: var(--activecolor);
   color: var(--white);
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .products-container {
