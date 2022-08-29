@@ -320,7 +320,7 @@ body {
 .products-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  flex-basis: calc((100%-30px) / 3);
   background: var(--white);
   list-style: none;
   border: 1px solid rgba(238, 238, 238, 1);
